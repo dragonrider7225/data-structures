@@ -1,5 +1,4 @@
 //! My base for libraries.
-//! TODO: Fix crate name in Cargo.toml
 
 #![warn(
     clippy::create_dir,
