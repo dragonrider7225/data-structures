@@ -22,3 +22,9 @@
     feature = "lint_reasons",
     deny(clippy::allow_attributes, clippy::allow_attributes_without_reason)
 )]
+
+/// An implementation of the [rope] data structure.
+///
+/// [rope]: https://en.wikipedia.org/wiki/Rope_(data_structure)
+pub mod rope;
+pub use rope::Rope;
