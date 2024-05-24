@@ -28,3 +28,8 @@
 /// [rope]: https://en.wikipedia.org/wiki/Rope_(data_structure)
 pub mod rope;
 pub use rope::Rope;
+
+/// An implementation of the [splay tree] data structure.
+///
+/// [splay tree]: https://en.wikipedia.org/wiki/Splay_tree
+pub mod splay_tree;
