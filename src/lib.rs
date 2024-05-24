@@ -1,5 +1,5 @@
 //! My base for libraries.
-
+#![feature(box_patterns)]
 #![warn(
     clippy::create_dir,
     clippy::infinite_loop,
